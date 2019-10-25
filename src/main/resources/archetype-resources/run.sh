@@ -14,7 +14,7 @@ if [ $? -eq 1 ] || [ "$RUNNING" == "false" ]; then
      -p 8080:8080 \
      -p 9990:9990 \
      -v "$(pwd)/artifact:/deployments" \
-     ivonet/payara:5.193
+     ivonet/payara:5.193.1
 
     echo "Payara admin console credentials:"
     echo "Console: http://localhost:4848"
