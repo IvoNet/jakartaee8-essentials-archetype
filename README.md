@@ -13,7 +13,7 @@ with wildfly as the Application Server
 mvn archetype:generate \
     -DarchetypeGroupId=nl.ivonet \
     -DarchetypeArtifactId=jakartaee8-essentials-archetype \
-    -DarchetypeVersion=1.0-SNAPSHOT -U
+    -DarchetypeVersion=1.0 -U
 ```
 
 ## Install in local repo
@@ -22,7 +22,7 @@ mvn archetype:generate \
 mvn dependency:get \
    -DgroupId=nl.ivonet \
    -DartifactId=jakartaee8-essentials-archetype \
-   -Dversion=0.0.3
+   -Dversion=1.0
    
 mvn archetype:crawl
    
